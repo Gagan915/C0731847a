@@ -10,7 +10,7 @@ namespace C0731847
     {
         static void Main(string[] args)
         {
-            int i = 9;
+            var numbers = new List<int>();
         }
     }
 }
