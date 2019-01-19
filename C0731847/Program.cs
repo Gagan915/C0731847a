@@ -15,6 +15,17 @@ namespace C0731847
             StudentInformation _Mark = new StudentInformation("Mark", 0.2, 3);
             StudentInformation _Steve = new StudentInformation("Steve", 2.9, 16);
             StudentInformation _Cindy = new StudentInformation("Cindy", 3.8, 20);
+            var StudentList = new List<StudentInformation>();
+            StudentList.Add(_Mary);
+            StudentList.Add(_John);
+            StudentList.Add(_Mark);
+            StudentList.Add(_Steve);
+            StudentList.Add(_Cindy);
+            foreach (var student in StudentList)
+            {
+                Console.WriteLine(student.Name);
+            }
+
             Console.ReadLine();
         }
 
@@ -35,5 +46,15 @@ namespace C0731847
 }
 
         }
+
+    class StudentList
+    {
+        public void CICS()
+        {
+           
+        }
+    }
+
+
     }
 
